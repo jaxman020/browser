@@ -2,13 +2,20 @@
 {% load staticfiles %}
 <html>
 <head>
-<title>程式語言小百科</title>
+<title>瀏覽器小百科</title>
 <meta charset=utf-8>
 <link rel=stylesheet href={% static 'main/main.css' %}>
 </head>
 <body>
-<h1>Django 說--Hello world!</h1>
-<p>{{message}}</p>
+<h1>各種瀏覽器介紹</h1>
+<p><u> <b><font color=red> chrome</font></b></u></p>
+<a href='https://www.google.com.tw/chrome/browser/desktop'> 網站 </a>
+<p><u> <font color=red>Microsoft Internet Explorer</font></u></p>
+<p><u> <font color=red>Mozilla Firefox</font></u></p>
+<p><u> <font color=red>Apple Sarafi</font></u></p>
+<p><u> <font color=red>Opera</font></u></p>
+
+
 <br>
 <p><a href={% url 'wiki:wiki' %}>前往 Wiki 網頁</a></p>
 </body>
