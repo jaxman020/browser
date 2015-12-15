@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
-    'wiki',
+    'firefox',
+    'chrome',
+    'explorer',
+    'sarafi',
+    'opera',
 ]
 
 MIDDLEWARE_CLASSES = [

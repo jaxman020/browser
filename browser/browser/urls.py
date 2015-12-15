@@ -21,6 +21,10 @@ from django.contrib import admin
 urlpatterns = [
                url(r'^admin/', include(admin.site.urls)),
                url(r'^main/', include('main.urls', namespace='main')),
-               url(r'^wiki/', include('wiki.urls', namespace='wiki')),
+               url(r'^firefox/', include('firefox.urls', namespace='firefox')),
+               url(r'^chrome/', include('chrome.urls', namespace='chrome')),
+               url(r'^explorer/', include('explorer.urls', namespace='explorer')),
+               url(r'^sarafi/', include('sarafi.urls', namespace='sarafi')),
+               url(r'^opera/', include('opera.urls', namespace='opera')),
                url(r'^.*', include('main.urls')),
 ]
